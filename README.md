@@ -1,2 +1,0 @@
-# segmentation_data
-fdbfdb
