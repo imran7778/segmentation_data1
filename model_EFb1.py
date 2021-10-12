@@ -22,14 +22,23 @@ def decoder_block(inputs, skip, num_filters):
     x = conv_block(x, num_filters)
     return x
 
-def build_effienet_unet(input_shape):
+def build_effienet_unet(input_shape,i):
     """ Input """
     inputs = Input(input_shape)
 
     """ Pre-trained Encoder """
     encoder = EfficientNetB0(include_top=False, weights=None, input_tensor=inputs)
+    print(i)
 
-    s1 = encoder.get_layer("input_1").output                      ## 256
+    if i==1:
+     for layer in encoder.layers:
+      Input_name=layer.name
+      print(Input_name)
+      i==0
+      break  
+       
+    
+    s1 = encoder.get_layer(Input_name).output                      ## 256
     s2 = encoder.get_layer("block2a_expand_activation").output    ## 128
     s3 = encoder.get_layer("block3a_expand_activation").output    ## 64
     s4 = encoder.get_layer("block4a_expand_activation").output    ## 32
