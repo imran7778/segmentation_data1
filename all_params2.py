@@ -1,6 +1,7 @@
 TRAIN_DATA_PATH = 'SigTuple_data/Train_data/'
 NEW_TRAIN_DATA_PATH = 'SigTuple_data/New_train_data/'
 TEST_DATA_PATH = 'SigTuple_data/Test_Data/'
+NEW_TEST_DATA_PATH = 'SigTuple_data/New_Test_Data/'
 SUBMISSION_DATA_PATH = 'SigTuple_data/Submission_Data/'
 MODEL_CHECKPOINT_DIR = 'Checkpoints/'
 WEIGHTS = 'Model_Weights.hdf5'
