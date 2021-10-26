@@ -1,5 +1,5 @@
 TRAIN_DATA_PATH = 'SigTuple_data/Train_data/'
-NEW_TRAIN_DATA_PATH = 'SigTuple_data/New_trains_data/'
+NEW_TRAIN_DATA_PATH = 'SigTuple_data/New_train_data/'
 NEW_TEST_DATA_PATH = 'SigTuple_data/New_test_data/'
 TEST_DATA_PATH = 'SigTuple_data/Test_Data/'
 SUBMISSION_DATA_PATH = 'SigTuple_data/Submission_Data/'
