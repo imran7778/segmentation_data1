@@ -6,6 +6,7 @@ SUBMISSION_DATA_PATH = 'SigTuple_data/Submission_Data/'
 MODEL_CHECKPOINT_DIR = 'Checkpoints/'
 WEIGHTS = 'Model_Weights.hdf5'
 AUGMENT_TRAIN_DATA = False
+AUGMENT_TEST_DATA = False
 CREATE_EXTRA_DATA = False
 IMG_ROWS = 128
 IMG_COLS = 128
