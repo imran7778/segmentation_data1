@@ -1,4 +1,4 @@
-Folder=SigTuple_data3
+Folder = SigTuple_data3
 TRAIN_DATA_PATH = 'SigTuple_data3/Train_data/'
 NEW_TRAIN_DATA_PATH = 'SigTuple_data3/New_train_data/'
 NEW_TEST_DATA_PATH = 'SigTuple_data3/New_test_data/'
