@@ -1,8 +1,8 @@
-TRAIN_DATA_PATH = 'SigTuple_data8/Train_data/'
-NEW_TRAIN_DATA_PATH = 'SigTuple_data8/New_train_data/'
-NEW_TEST_DATA_PATH = 'SigTuple_data8/New_test_data/'
-TEST_DATA_PATH = 'SigTuple_data8/Test_Data/'
-SUBMISSION_DATA_PATH = 'SigTuple_data8/Submission_Data/'
+TRAIN_DATA_PATH = 'SigTuple_data10/Train_data/'
+NEW_TRAIN_DATA_PATH = 'SigTuple_data10/New_train_data/'
+NEW_TEST_DATA_PATH = 'SigTuple_data10/New_test_data/'
+TEST_DATA_PATH = 'SigTuple_data10/Test_Data/'
+SUBMISSION_DATA_PATH = 'SigTuple_data10/Submission_Data/'
 MODEL_CHECKPOINT_DIR = 'Checkpoints/'
 WEIGHTS = 'Model_Weights.hdf5'
 AUGMENT_TRAIN_DATA = False
